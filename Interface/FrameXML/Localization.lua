@@ -15,9 +15,6 @@ function LocalizeFrames()
 	-- Hide profanity checkbox
 	-- UIOptionsFrameCheckButton5:Hide();
 
-	-- Adjust friends frame title
-	FriendsFrameTitleText:SetPoint("TOP", "FriendsFrame", "TOP", 0, -15);
-
 	-- Adjust text in character and friends frame tabs
 	for i=1, (CharacterFrame.numTabs or 0) do
 		local tabName = "CharacterFrameTab"..i;
@@ -118,9 +115,6 @@ function LocalizeFrames()
 	CombatConfigColorsExampleString1:SetPoint("TOPLEFT", 25, -16);
 	CombatConfigFormattingExampleTitle:Hide();
 	CombatConfigFormattingExampleString1:SetPoint("TOPLEFT", 15, -16);
-	
-	LFRQueueFrameTitleText:SetPoint("TOP", 12, -16);
-	
 	
 	EJ_MIN_CHARACTER_SEARCH = 1;
 end

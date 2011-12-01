@@ -13,6 +13,9 @@ function LocalizeFrames()
 	CharacterSelectCharacterFrame:SetHeight(650);
 	CharacterCreateNameEdit:SetMaxLetters(12);
 
+	CHARACTER_SELECT_LOGOS[2] = "Interface\\Glues\\Common\\Glues-WoW-TaiwanWotLKLogo";
+	CHARACTER_SELECT_LOGOS[3] = "Interface\\Glues\\Common\\Glues-WoW-TaiwanCCLogo";
+
 	-- Hide the Roleplaying an rppvp buttons in the Taiwan build
 	RealmWizardStyle:SetHeight(160);
 	RealmWizardGameTypeButton3:Hide();
@@ -24,10 +27,6 @@ function LocalizeFrames()
 	-- Hide save username button
 	AccountLoginSaveAccountName:Hide();
 	AccountLoginSaveAccountNameText:Hide();
-	SAVE_ACCOUNT_BUTTON_HIDDEN = true;
-
-	-- Hide the "Show Launcher" button in this locale
-    AccountLoginShowLauncher:Hide();
 	
 	-- Audio options
 	AudioOptionsSoundPanelSoundChannelsDropDownLabel:SetPoint("BOTTOM",  AudioOptionsSoundPanelSoundChannelsDropDown, "TOP", 0, 0);

@@ -29,3 +29,10 @@ GUILD_REWARDS_ACHIEVEMENT_ICON = " |TInterface\\AchievementFrame\\UI-Achievement
 -- labels
 GuildMainFrameMembersCountLabel:SetPoint("BOTTOMRIGHT", GuildFrameMembersCount, "TOPRIGHT", 0, 0);
 GuildFactionFrameHeader:SetPoint("TOPLEFT", 0, 16);
+
+-- more room for rewards
+GUILD_REWARDS_BUTTON_HEIGHT = 57;
+for _, button in pairs(GuildRewardsContainer.buttons) do
+	button:SetHeight(GUILD_REWARDS_BUTTON_HEIGHT);
+end
+GuildRewardsContainer.buttonHeight = GUILD_REWARDS_BUTTON_HEIGHT;
