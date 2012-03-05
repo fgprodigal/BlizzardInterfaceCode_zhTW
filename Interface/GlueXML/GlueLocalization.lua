@@ -31,4 +31,6 @@ function LocalizeFrames()
 	-- Audio options
 	AudioOptionsSoundPanelSoundChannelsDropDownLabel:SetPoint("BOTTOM",  AudioOptionsSoundPanelSoundChannelsDropDown, "TOP", 0, 0);
 	AudioOptionsSoundPanelHardwareDropDownLabel:SetPoint("BOTTOM",  AudioOptionsSoundPanelHardwareDropDown, "TOP", 0, 1);
+	
+	NEVER_SHOW_UPGRADE = true;
 end
