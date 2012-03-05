@@ -1,4 +1,4 @@
-h2. Interface changed from 40200 to 40300
+h2. Interface changed from 40200 to 40300:
 * UI.xsd: new boolean attribute named "reverseFill"
 
 * API: BNGetFriendInfo returns now arg13, arg14, arg15 named isRIDFriend, messageTime and canSoR
@@ -81,7 +81,7 @@ h2. Local variables now made into globals:
 * GUILD_REWARDS_BUTTON_OFFSET
 * SPELL_POWER_ALTERNATE_POWER
 
-h2. New global constants (mainly from GlobalStrings but some few from other parts):
+h2. New global constants:
 * ACHIEVEMENTUI_CRITERIACHECKWIDTH
 * ALL_ASSIST_DESCRIPTION
 * ALL_ASSIST_LABEL
