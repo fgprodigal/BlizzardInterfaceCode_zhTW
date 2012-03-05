@@ -63,7 +63,7 @@ h2. Interface changed from 40200 to 40300
 * UI: The LFR frame is a part of the friends frame dialog (added the tab, right of the channel tab)
 * UI: The Macro frame prioritize character spells in the icon selection
 
-p.Events added:
+p. Events added:
 * INVENTORY_SEARCH_UPDATE
 * MODIFIER_STATE_CHANGED
 * TRANSMOGRIFY_BIND_CONFIRM
@@ -76,12 +76,12 @@ p.Events added:
 * VOID_STORAGE_UPDATE
 * VOID_TRANSFER_DONE
 
-p.Local variables now made into globals:
+p. Local variables now made into globals:
 * GUILD_REWARDS_BUTTON_HEIGHT
 * GUILD_REWARDS_BUTTON_OFFSET
 * SPELL_POWER_ALTERNATE_POWER
 
-p.New global constants (mainly from GlobalStrings but some few from other parts);
+p. New global constants (mainly from GlobalStrings but some few from other parts);
 * ACHIEVEMENTUI_CRITERIACHECKWIDTH
 * ALL_ASSIST_DESCRIPTION
 * ALL_ASSIST_LABEL
@@ -231,7 +231,7 @@ p.New global constants (mainly from GlobalStrings but some few from other parts)
 * VOID_STORAGE_WELCOME
 * VOID_STORAGE_WELCOME_TEXT
 
-p.Globals removed:
+p. Globals removed:
 * ADVANCED_WORLD_MAP_TEXT
 * CLASS_TRAINER_SKILL_BUTTON_WIDTH
 * MAX_BATTLEFIELD_QUEUES
