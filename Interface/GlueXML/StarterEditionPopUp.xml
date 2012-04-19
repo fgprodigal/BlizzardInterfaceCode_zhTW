@@ -48,7 +48,7 @@
 				</Texture>
 			</Layer>
 			<Layer level="ARTWORK">
-				<Texture file="Interface/Glues/Common/Glues-WoW-StarterLogo">
+				<Texture parentKey="Logo" file="Interface/Glues/Common/Glues-WoW-StarterLogo">
 					<Size x="320" y="160"/>
 					<Anchors>
 						<Anchor point="CENTER" relativeTo="$parentBG" relativePoint="TOP" x="0" y="-30"/>
@@ -137,6 +137,7 @@
 				end
 			
 				local featureTable = ACCOUNT_UPGRADE_FEATURES["TRIAL"];
+				self.Logo:SetTexture(featureTable.logo);
 				for i=1, #featureTable do
 					local frame = _G["StarterEditionPopUpFeature"..i];
 					if ( not frame ) then
